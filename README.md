@@ -1,37 +1,67 @@
-# Recipe Finder App 🍳
 
-A Flutter Recipe Finder application developed as part of the CodGen Flutter Virtual Internship.
+# 🍽️ Recipe Finder
 
-## Features
+A Flutter-based Recipe Finder app that helps users discover recipes, search for meals, filter by category, and save their favorite recipes.
 
-- 🏠 Home screen with recipe cards
-- 🍚 6 hardcoded recipes
-- 📖 Recipe detail screen
-- 🥕 Ingredients list
-- 👨‍🍳 Step-by-step cooking instructions
-- 🔙 Navigation between Home and Detail screens
-- 🎨 Flutter Material UI
+## ✨ Features
 
-## Recipes Included
+- Browse 50 recipes.
+- Search recipes by name.
+- Filter recipes by category.
+- View ingredients and cooking instructions.
+- Add and remove favorite recipes.
+- Save favorites using SharedPreferences.
+- Custom app icon.
+- Responsive Flutter interface.
+- Offline recipe browsing using local JSON data.
 
-1. Vegetable Fried Rice
-2. Masala Dosa
-3. Paneer Butter Masala
-4. Margherita Pizza
-5. Veggie Burger
-6. Chocolate Pancakes
-
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Flutter
 - Dart
-- VS Code
+- SharedPreferences
+- JSON
 
-## How to Run
+## 📱 Screenshots
 
-1. Install Flutter SDK.
-2. Open the project in VS Code.
-3. Run:
+Add screenshots of the following screens:
+- Home
+- Search
+- Recipe Details
+- Favorites
 
-```bash
-flutter pub get
+## 🚀 Installation
+
+1. Clone this repository:
+
+   git clone https://github.com/deepikapoojari388-rgb/recipe_finder.git
+
+2. Open the project folder:
+
+   cd recipe_finder
+
+3. Install dependencies:
+
+   flutter pub get
+
+4. Run the application:
+
+   flutter run
+
+## 📦 Build APK
+
+To build the Android APK, run:
+
+    flutter build apk
+
+The APK will be available at:
+
+    build/app/outputs/flutter-apk/app-release.apk
+
+## 👩‍💻 Developer
+
+Deepika Poojari
+
+## 📄 License
+
+This project is for educational purposes.
